@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  flex-direction: wrap ;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-fluide{
+  display: flex;
+  flex-direction: wrap;
+  justify-content: flex-start;
+  
+}
+
+.bouton {
+  border: 2px solid #F74E2D;
+  background-color: white;
+  color: orangered;
+}
+.menu {
+  color: black;
+  font-weight: bold;
+  
+}
+.burger {
+  color: #F74E2D;
+  align-items: flex-start;
+}
+
+.menu:hover {
+  text-decoration: none;
+  color: #F74E2D;
+}
+
+
+h2 {
+  font-weight: bold;
+}
+.block-grey {
+  background-color: #efefef;
+}
+.block-orange {
+  background-color: #F74E2D;
+}
+.spectacle {
+  border: solid black;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.spectacle:hover {
+  background-color: #F74E2D;
+  color: white;
+  border-color: #F74E2D;
+}
+.calendrier {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+}
+.calendrier:hover {
+  background-color: black;
+  color: white;
+}
+.label {
+  font-weight: bold;
+}
+.boutton-filtrer-shows {
+  border: 1px solid #F74E2D;
+  background-color: #F74E2D;
+  border-color: #F74E2D;
+  color: white;
+  float: right;
+}
+.boutton-filtrer-shows:hover {
+  background-color: black;
+  border-color: black;
+}
+.text-white {
+  font-size: 20px;
+  color: white;
+}
+
+/* CARTES */
+.col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.button_details {
+  color: #F74E2D;
+  font-size: 13px;
+  border: 1px solid #F74E2D;
+  font-weight: bold;
+}
+
+.button_details:hover {
+  background-color: #F74E2D;
+  color: white;
+}
+
+.button_reserved {
+  color: white;
+  background-color: #F74E2D;
+  font-size: 13px;
+  border: 1px solid #F74E2D;
+  font-weight: bold;
+}
+
+.button_reserved:hover {
+  background-color: white;
+  color: #F74E2D;
+}
+
+.button_season {
+  color: white;
+  background-color: black;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.button_season:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.textcard {
+  margin-top: 300px;
+}
+
+.linear-gradient {
+  background: linear-gradient(transparent, black);
+}
+
+
+.card_date {
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  text-decoration: underline 3px #F74E2D;
+}
+
+.card_date:hover {
+  color:#C0C0BF;
+  cursor: pointer;
+}
+
+.card_title {
+  color: white;
+  font-size: 800;
+  font-weight: bold; 
+}
+
+.card_title:hover {
+  color: #888785 ;
+  cursor: pointer;
+}
+
+.card_details {
+  color: #F74E2D;
+  font-weight: 400; 
+}
+
+
+#card1 {
+background-image: url(https://www.domainedo.fr/sites/default/files/styles/list_image_shows_500x694/public/thumbnails/image/3_en-attendant-le-grand-soircpierre-rigo.jpg?itok=-LSEmkG5);
+}
+#card2 {
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/list_image_shows_500x694/public/thumbnails/image/aarchitecture_theatre_-rmarie_caroline_lucat-3_1.jpg?itok=vGwLXbw8&c=f3314d248948a18824028e208514687b);
+}
+#card3 {
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/list_image_shows_500x694/public/thumbnails/image/15_fatumata-diawaracecard.jpg?itok=LffzdQLu);
+}
+#card4 {
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/list_image_shows_500x694/public/thumbnails/image/5_monstro-2calbertine-guillaume.jpg?itok=T-cXSNc4);
+}
+#card5 {
+  background-image: url(https://www.domainedo.fr/sites/default/files/styles/list_image_shows_500x694/public/thumbnails/image/vian-par-dslz-2200pxcpierrickguidou.jpg?itok=lotpUUVy&c=fd6dae548b7fae51e1a7964a5cd444fc);
+}
+.img_footer {
+  height:150px;
+  width: 150px;
+}
+.col-lg-2 {
+  font-size: 80%;
+}
+.col-lg-6 {
+  display: flex;
+}
+span {
+  font-weight: bold;
+}
+.lien_underline:hover {
+  text-decoration: underline;
+}
+.margin_footer {
+  margin-top: -20px;
+}
+#text_footer {
+  font-size: 14px;
+}
+
+#text_footer2 {
+  font-size: 14px;
+}
+
+#text_footer3 {
+  font-size: 12px;
+}
+#text_domainedo {
+  font-size: 13px;
+  font-weight: bold;
+}
+#text_footer4 {
+  font-size: 13px;
+}
