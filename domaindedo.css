@@ -1,11 +1,16 @@
 .container {
   display: flex;
-  flex-direction: wrap ;
+  flex-direction: column ;
+  justify-content: flex-start;
 }
 
 .container-flex {
   display: flex;
   flex-direction: row;
+}
+
+.logo-domaine-do  {
+  justify-content: center;
 }
 
 .container-fluide{
@@ -39,10 +44,10 @@
 h2 {
   font-weight: bold;
 }
-.block-grey {
+.col-8 {
   background-color: #efefef;
 }
-.block-orange {
+.col-3 {
   background-color: #F74E2D;
 }
 .spectacle {
@@ -87,8 +92,12 @@ h2 {
 
 /* CARTES */
 .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-bottom: 30px;
 }
+
 
 .button_details {
   color: #F74E2D;
